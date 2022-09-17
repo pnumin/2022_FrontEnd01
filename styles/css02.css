@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+}
+nav { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #263343;
+  color: white;
+  width:100%;
+  left: 0px;
+  top:0px;
+  position:sticky;
+}
+ 
+li {
+  list-style: none;
+  padding : 8px 12px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+}
+
+.nav_menu {
+  display : flex ;
+}
+
+.nav_menu a:hover{
+  background-color:darksalmon ;
+}
+
+.nav_icon {
+  display : flex ; 
+}
+

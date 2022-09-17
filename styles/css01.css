@@ -1,0 +1,24 @@
+* {
+  color:darkgray
+}
+
+a {
+  color:black;
+}
+
+.c2 {
+  background-color: beige;
+}
+
+#id2 {
+  background-color: lavender;
+}
+
+a[target] {
+  color:blue;
+}
+
+a[target="_blank"] {
+  background-color: aqua;
+}
+
