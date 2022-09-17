@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"> 
+  <title>입력폼</title>
+  <link rel="stylesheet" href="./styles/form.css">
+</head>
+<body>
+<header>
+<h1>신청서 양식</h1>
+</header>  
+<form action="a.html" method="post">
+  <label for="txt1">학번</label>
+  <input type="number" id="txt1" name="txt1" class="tc1" placeholder="학번입력" required autofocus>
+  <label for="txt2">성명</label>
+  <input type="text" id="txt2" name="txt2" class="tc1"  placeholder="성명입력" required>
+  <label for="txt3">성명</label>
+  <input type="password" id="txt3" name="txt3" class="tc1"  placeholder="비밀번호입력">
+  <label for="txt4">E-mail</label>
+  <input type="email" id="txt4" name="txt4" class="tc1"  placeholder="이메일호입력">
+  <input type="checkbox" id="ck41" name="ck41">
+  <label for="ck41" class="l1">수신여부</label>
+  <label for="sel1">연락처</label>
+  <select id="tel1" name="tel1" class="telc">
+    <option value="010" selected>010</option>
+    <option value="02">02</option>
+    <option value="051">051</option>
+  </select>-
+  <input type="text" id="tel2" name="tel2" size="5" maxlength="4" class="telc">- 
+  <input type="text" id="tel3" name="tel3" size="5" maxlength="4" class="telc">
+  <fieldset>
+  <legend>성별</legend>
+  <input type="radio" name="gender" id="gender1" value="남"><label for="gender1" class="l1">남</label>
+  <input type="radio" name="gender" id="gender2" value="여"><label for="gender2" class="l1">여</label>
+  </fieldset>
+
+  <label for="txt5">신청이유</label>
+  <textarea id="txt5" name="txt5"></textarea>
+  <div class="bc">
+    <input type="submit" id="b1" value="신청">
+    <input type="reset" id="b2" value="취소">
+  </div>
+</form>  
+</body>
+</html>
