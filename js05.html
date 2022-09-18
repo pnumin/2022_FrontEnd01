@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>자바스크립트 연습</title>
+<script src="./scripts/js05.js"></script>
+<link rel="stylesheet" href="./styles/js05.css">
+</head>
+<body>
+	<form name="myform">
+	<div class="box1">
+		업다운 게임
+	</div>
+	<div class ="box2">		
+			<p class="pc1">
+        <input type="button" value="시작" id="st1" onclick="startShow()">
+			</p>		 
+			<p class="pc1">
+        <input type="text" name="txt1" placeholder="숫자2" size="5"> 
+        <input type="button" value="확인" onclick="checkShow();">
+        <input type="reset" value="취소">
+			</p>
+			<p class="pc3">
+			시작버튼을 눌른 후 숫자를 입력한 후 확인버튼을 누르세요.
+			</p>
+	</div>
+	</form>
+	<div class="box3">
+		<div id="msg"></div>
+	</div>
+</body>
+</html>
